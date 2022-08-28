@@ -1,9 +1,9 @@
-public class Acct {
+final public class Acct {
     private String acctID;
     private String userName;
     private String password;
-    private  double acctBalance;
-    private  double withdrawal;
+    private double acctBalance;
+    private double withdrawal;
 
     public String getAcctID() {
         return acctID;
